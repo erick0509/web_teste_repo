@@ -30,7 +30,6 @@
     $article=$xml->createElement('article');
     $carticle=setId();
     $article->setAttribute("code_article",$carticle);
-    $article->setAttribute("code_depot",$_POST['code_depot']);
     $dispo_commande->appendChild($article);
     $article->appendChild($xml->createElement('designation', $_POST['designation']));
     $article->appendChild($xml->createElement('prix_unitaire', $_POST['prix_unitaire']));
