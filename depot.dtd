@@ -1,0 +1,3 @@
+<!ELEMENT depot(emplacement)>
+<!ELEMENT emplacement(EMPTY)>
+<!ATTLIST emplacement code_depot ID #REQUIRED>

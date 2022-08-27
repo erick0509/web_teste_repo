@@ -1,0 +1,7 @@
+<!-- DTD created at Fri Aug 19 07:20:47 CEST 2022 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+<!ELEMENT commande(date_commande,date_livraison)>
+<!ELEMENT  date_commande(#PCDATA)>
+<!ELEMENT  date_livraison(#PCDATA)>
+<!ATTLIST commande no_commande ID #REQUIRED no_client ID #REQUIRED>
+<!ATTLIST tag  attribute CDATA #REQUIRED>
+

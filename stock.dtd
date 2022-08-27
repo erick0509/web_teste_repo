@@ -1,0 +1,7 @@
+<!-- DTD created at Fri Aug 26 21:24:16 CEST 2022 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  depot_de_stock(stock)>
+<!ELEMENT stock(quantite_en_stock,quantite_reserver)>
+<!ELEMENT  quantite_en_stock(#PCDATA)>
+<!ELEMENT  quantite_reserver(#PCDATA)>
+<!ATTLIST stock code_depot ID #REQUIRED code_article ID #REQUIRED)>

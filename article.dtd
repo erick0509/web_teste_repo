@@ -1,0 +1,11 @@
+<!-- DTD created at Fri Aug 19 07:20:47 CEST 2022 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  dispo_commande(article)>
+<!ELEMENT article(designation,prix_unitaire,type,quantite)>
+<!ELEMENT  designation(#PCDATA)>
+<!ELEMENT  prix_unitaire(#PCDATA)>
+<!ELEMENT  type(#PCDATA)>
+<!ELEMENT  quantite(#PCDATA)>
+<!ATTLIST article code_article ID #REQUIRED code_depot ID #REQUIRED)>
+<!ATTLIST tag  attribute CDATA #REQUIRED>
+

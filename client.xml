@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="client.xsl"?>
+<personne>
+  <client id="1">
+    <nom>RANJIVASOA</nom>
+    <prenom>Jimmy Claude Junuor</prenom>
+    <adresse>lot 240 p/lle 23/44</adresse>
+    <age>6</age>
+    <email>gumballe@gmail.com</email>
+  </client>
+  <client id="2">
+    <nom>RANJIVASON</nom>
+    <prenom>Claude Eric</prenom>
+    <adresse>lot 240 p/lle 23/44</adresse>
+    <age>22</age>
+    <email>erinjiva501@gmail.com</email>
+  </client>
+  <client id="3">
+    <nom>JOSELO</nom>
+    <prenom>Jays Pic</prenom>
+    <adresse>Morarano Chrome</adresse>
+    <age>24</age>
+    <email>joseloJays@gmail.com</email>
+  </client>
+  <client id="4">
+    <nom>Busth</nom>
+    <prenom>Ryhms</prenom>
+    <adresse>Ambolomadinika</adresse>
+    <age>22</age>
+    <email>pelakarison@gmail.com</email>
+  </client>
+  <client id="5">
+    <nom>Diogene </nom>
+    <prenom>Freddin</prenom>
+    <adresse>Depot Analakininina</adresse>
+    <age>23</age>
+    <email>ddin@gmail.com</email>
+  </client>
+  <client id="6">
+    <nom>Jimmy</nom>
+    <prenom>Claude Junior</prenom>
+    <adresse>lot 70bis p/lle 22/13</adresse>
+    <age>12</age>
+    <email>jimmy@gmail.com</email>
+  </client>
+  <client id="7">
+    <nom>RASOLOMANANA</nom>
+    <prenom>Voahanginirina Lalao Sahondra</prenom>
+    <adresse>lot 240 p/lle 23/44</adresse>
+    <age>40</age>
+    <email>sahondra@gmail.com</email>
+  </client>
+  <client id="10">
+    <nom>RASOLOMANANA</nom>
+    <prenom>Voahanginirina Lalao Sahondra</prenom>
+    <adresse>lot 240 p/lle 23/44</adresse>
+    <age>40</age>
+    <email>sahondra@gmail.com</email>
+  </client>
+  <client id="11">
+    <nom>RASOLOMANANA</nom>
+    <prenom>Voahanginirina Lalao Sahondra</prenom>
+    <adresse>lot 240 p/lle 23/44</adresse>
+    <age>40</age>
+    <email>sahondra@gmail.com</email>
+  </client>
+  <client id="13">
+    <nom>2r2qr</nom>
+    <prenom>qwefew</prenom>
+    <adresse>asffeqw</adresse>
+    <age>sfvawv</age>
+    <email>vwqvrw</email>
+  </client>
+  <client id="8">
+    <nom>BUSTH</nom>
+    <prenom>Dominique</prenom>
+    <adresse>lot 315 bis</adresse>
+    <age>32</age>
+    <email>busth@gmail.com</email>
+  </client>
+  <client id="9">
+    <nom>RASOLONANDRASANA</nom>
+    <prenom>J.P</prenom>
+    <adresse>77bis 24/33</adresse>
+    <age>42</age>
+    <email>erinjiva501@gmail.com</email>
+  </client>
+  <client id="12">
+    <nom>LIL</nom>
+    <prenom>Wayne</prenom>
+    <adresse>americ state</adresse>
+    <age>34</age>
+    <email>lilwain@gmail.com</email>
+  </client>
+  <client id="14">
+    <nom>TOJOMANANA</nom>
+    <prenom>Eric</prenom>
+    <adresse>sambaina 502</adresse>
+    <age>23</age>
+    <email>tjeric@gmail.com</email>
+  </client>
+  <client id="15">
+    <nom>Tiavina</nom>
+    <prenom>RANDRIA</prenom>
+    <adresse>AMBOHIMANGA </adresse>
+    <age>21</age>
+    <email>tiavinarandria@gmail.com</email>
+  </client>
+</personne>

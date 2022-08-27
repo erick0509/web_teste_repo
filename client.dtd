@@ -1,0 +1,15 @@
+<!-- DTD created at Thu Aug 18 21:56:02 CEST 2022 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  client(commande)>
+<!ELEMENT  commande(article)>
+<!ELEMENT  article(#PCDATA)>
+<!ATTLIST CDATA>
+<!ATTLIST client id ID #REQUIRED nom CDATA #REQUIRED 
+			prenom CDATA #REQUIRED adresse CDATA #REQUIRED>
+<!ATTLIST commande idCommande ID #REQUIRED dateCommande CDATA #REQUIRED
+			dateLivraison CDATA #REQUIRED>
+
+<!ATTLIST article idArticle ID #REQUIRED prixUnitaire CDATA #REQUIRED
+
+			 typeArticle CDATA #REQUIRED>
+

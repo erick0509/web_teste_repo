@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="depot.xsl"?>
+<depot>
+  <emplacement code_depot="A16">
+    <description>a cote de Madauto bazary be</description>
+  </emplacement>
+  <emplacement code_depot="A36">
+    <description>vers la route de RATSIMILAHO</description>
+  </emplacement>
+  <emplacement code_depot="B36">
+    <description>tanambao V</description>
+  </emplacement>
+  <emplacement code_depot="A50">
+    <description>RN2 Brickaville</description>
+  </emplacement>
+  <emplacement code_depot="F12">
+    <description>Mangarano Nord</description>
+  </emplacement>
+</depot>
