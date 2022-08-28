@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="article.xsl"?>
+<depot_de_stock>
+  <stock code_depot="F12" code_article="1">
+    <quantite_en_stock>14</quantite_en_stock>
+    <quantite_en_reserve>0</quantite_en_reserve>
+  </stock>
+  <stock code_depot="B36" code_article="2">
+    <quantite_en_stock>13</quantite_en_stock>
+    <quantite_en_reserve>0</quantite_en_reserve>
+  </stock>
+  <stock code_depot="A50" code_article="3">
+    <quantite_en_stock>12</quantite_en_stock>
+    <quantite_en_reserve>0</quantite_en_reserve>
+  </stock>
+</depot_de_stock>

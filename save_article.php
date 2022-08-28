@@ -4,7 +4,7 @@
         $dom = new DOMDocument('1.0', 'utf-8');
         $xml = file_get_contents('article.xml');
         @$dom->loadHTML($xml);
-        $a = $dom->getElementsByTagName('dispo_commande');
+        $a = $dom->getElementsByTagName('article');
         for ($i=0; $i < $a->length; $i++) {
             $attr = $a->item($i)->getAttribute('code_article');
             if($id==$attr){
@@ -35,7 +35,7 @@
     $article->appendChild($xml->createElement('prix_unitaire', $_POST['prix_unitaire']));
     $article->appendChild($xml->createElement('type', $_POST['type']));
     $xml->getElementsByTagName('dispo_commande')->item(0)->appendChild($article);
-    $xml->save('client.xml');
+    $xml->save('article.xml');
     //ajouter des info dans stock.xml
     $xmlStock= new DOMDocument('1.0','utf-8');
     $xmlStock->formatOutput=true;
@@ -43,12 +43,12 @@
     $xmlStock->load('stock.xml');
     $depotStock=$xmlStock->createElement('depot_de_stock');
     $stock=$xmlStock->createElement('stock');
-    $xmlStock->setAtribute('code_depot',$_POST['code_depot']);
-    $xmlStock->setAtribute('code_article',$carticle);
+    $stock->setAttribute('code_depot',$_POST['code_depot']);
+    $stock->setAttribute('code_article',$carticle);
     $xmlStock->appendChild($stock);
     $stock->appendChild($xmlStock->createElement('quantite_en_stock', $_POST['quantite']));
     $stock->appendChild($xmlStock->createElement('quantite_en_reserve','0'));
-    $xml->getElementsByTagName('depot_stock')->item(0)->appendChild($stock);
-    $xml->save('stock.xml');
+    $xmlStock->getElementsByTagName('depot_de_stock')->item(0)->appendChild($stock);
+    $xmlStock->save('stock.xml');
     header("location:article.xml");
 ?>

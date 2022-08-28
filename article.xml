@@ -1,22 +1,19 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="article.xsl"?>
 <dispo_commande>
-  <article code_article="1" code_depot="A36">
+  <article code_article="1">
     <designation>air force</designation>
     <prix_unitaire>150000</prix_unitaire>
     <type>chaussure homme</type>
-    <quantite>12</quantite>
   </article>
-  <article code_article="1" code_depot="A50">
-    <designation>clef US 32Gb</designation>
-    <prix_unitaire>25000</prix_unitaire>
-    <type>informatique</type>
-    <quantite>35</quantite>
+  <article code_article="2">
+    <designation>air force</designation>
+    <prix_unitaire>120000</prix_unitaire>
+    <type>chaussure homme</type>
   </article>
-  <article code_article="1" code_depot="A36">
-    <designation>Table rond</designation>
+  <article code_article="3">
+    <designation>table basse</designation>
     <prix_unitaire>100000</prix_unitaire>
     <type>meuble</type>
-    <quantite>13</quantite>
   </article>
 </dispo_commande>

@@ -25,8 +25,6 @@
                                     <th>designation</th>
                                     <th>prix_unitaire</th>
                                     <th>type</th>
-                                    <th>code du depot</th>
-                                    <th>quantite</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -35,9 +33,7 @@
                                     <td style="color:red;"><xsl:value-of select="@code_article"/></td>                 
                                     <td><xsl:value-of select="designation"/></td>
                                     <td><xsl:value-of select="prix_unitaire"/><span> Ar</span></td>
-                                    <td><xsl:value-of select="type"/></td>
-                                    <td><xsl:value-of select="@code_depot"/></td>
-                                    <td><xsl:value-of select="quantite"/></td>                            
+                                    <td><xsl:value-of select="type"/></td>                            
                                 </tr>
                                 </xsl:for-each>
                             </tbody>
