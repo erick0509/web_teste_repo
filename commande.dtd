@@ -4,4 +4,3 @@
 <!ELEMENT  date_livraison(#PCDATA)>
 <!ATTLIST commande no_commande ID #REQUIRED no_client ID #REQUIRED>
 <!ATTLIST tag  attribute CDATA #REQUIRED>
-
